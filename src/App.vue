@@ -4,7 +4,7 @@
 <wxChat 
   :data="wxChatData"
   :showShade="false"
-  contactNickname="简叔"
+  contactNickname="小钳爱鸭鸭"
   :getUpperData="getUpperData"
   :getUnderData="getUnderData"
   :ownerAvatarUrl="ownerAvatarUrl"
@@ -31,21 +31,21 @@ export default {
         direction: 2,
         id: 1,
         type: 1,
-        content: '你好!![呲牙]',
+        content: '鸭鸭我爱你！！',
         ctime: new Date().toLocaleString()
       },
       {
         direction: 1,
         id: 2,
         type: 1,
-        content: '你也好。[害羞]',
+        content: '小钳钳我也爱你',
         ctime: new Date().toLocaleString()
       },
       {
         direction: 2,
         id: 3,
         type: 1,
-        content: '这是我的简历头像：',
+        content: '想你了',
         ctime: new Date().toLocaleString()
       },
       {
@@ -59,7 +59,7 @@ export default {
         direction: 1,
         id: 5,
         type: 1,
-        content: '你开心就好。[微笑]',
+        content: '呜呜我也想你',
         ctime: new Date().toLocaleString()
       }]
     }
