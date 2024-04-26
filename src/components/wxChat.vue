@@ -15,14 +15,14 @@
     direction: 2, //为2表示微信主人发出的消息，1表示联系人
     id: 1, //根据这个来排序消息
     type: 1, //1为文本，2为图片
-    content: '你好!![呲牙]', //当type为1时这里是文本消息，当type2为2时这里要存放图片地址；后续会支持语音的显示
+    content: '鸭鸭我爱你！！', //当type为1时这里是文本消息，当type2为2时这里要存放图片地址；后续会支持语音的显示
     ctime: new Date().toLocaleString() //显示当前消息的发送时间
 },
 {
     direction: 1,
     id: 2,
     type: 1,
-    content: '你也好。[害羞]',
+    content: '小钳子我也爱你！',
     ctime: new Date().toLocaleString()
 }]
 
